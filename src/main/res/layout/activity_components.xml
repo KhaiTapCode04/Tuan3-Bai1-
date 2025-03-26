@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UI Components List"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/textComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/imageComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/textFieldComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextField"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/passwordFieldComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PasswordField"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/columnComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Column"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/rowComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Row"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
